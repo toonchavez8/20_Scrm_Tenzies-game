@@ -1,0 +1,25 @@
+.Die--face {
+	width: 3.125rem;
+	height: 3.125rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #ffffff;
+	border-radius: 0.625rem;
+	cursor: pointer;
+	box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+}
+
+.Die--face h2 {
+	font-family: "Karla";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.8rem;
+	line-height: 1.5rem;
+	text-align: center;
+}
+
+.Locked {
+	background: #5035ff !important;
+	color: white;
+}

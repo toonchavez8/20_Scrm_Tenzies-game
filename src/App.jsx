@@ -7,6 +7,17 @@ export default function App() {
 
 const [dice , setDice] = React.useState(allNewDice())
 
+const [Tenzies, setTenzies] = React.useState(false)
+
+React.useEffect(() => {
+  const allHeld = dice.every(die => die.locked)
+  const allSame = dice.every(die => die.value === dice[0].value)
+  if (allHeld && allSame) {
+    setTenzies(true)
+    alert("You win!")
+  }
+}, [dice])
+
   function allNewDice () {
     const newDice = []
     for (let i = 0; i < 10; i++) {

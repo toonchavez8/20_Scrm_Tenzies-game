@@ -2,7 +2,7 @@
 
 Welcome to the Tenzies game! This game allows you to play a fun dice game with your friends. It was built using the React JavaScript library, following the Scrimba React course. The project was started and developed using Vite.
 
-![tenzies](./public/tenzies.png)
+![tenzies](./public/tenzies.jpg)
 
 ## Features
 
